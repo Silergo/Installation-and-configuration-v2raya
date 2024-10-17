@@ -30,11 +30,9 @@ docker container stop v2raya
 ```
 а затем удалите его командой
 ```
-docker container stop v2raya
-```
 docker container rm v2raya
 ```
-После этого удалите каталог `/etc/v2raya` командой
+После этого удалите каталог ```/etc/v2raya``` командой
 ```
 rm -rf /etc/v2raya
 ```
