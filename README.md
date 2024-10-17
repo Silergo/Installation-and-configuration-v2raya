@@ -36,8 +36,8 @@ docker container rm v2raya
 ```
 rm -rf /etc/v2raya
 ```
-База данных с паролем будет удалена и вам надо будет запустить образ заново, повторив пункт 3.
-![5345](https://github.com/user-attachments/assets/babdd7b2-8dea-499a-b9a8-f10ec09e99d2)
+База данных с паролем будет удалена, и вам надо будет запустить образ заново, повторив пункт 3.
+![5345](https://github.com/user-attachments/assets/c202970a-7c9f-4a17-9a94-095b6b94a399)
 
 6.	Копируем из панели 3x-ui настройки сервера
 ![5346](https://github.com/user-attachments/assets/10e5b8c1-456e-42d1-87c1-8bb9dd17d936)
