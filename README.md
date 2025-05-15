@@ -49,7 +49,7 @@ rm -rf /etc/v2raya
 ![5348](https://github.com/user-attachments/assets/993800e2-f3e8-4536-9b53-8dc181d0689a)
 
 9.	Так как мы запускаем прокси через докер, не забываем включить «Port Sharing» в настройках, иначе не сможем подключиться к прокси.
-<img width="1020" alt="9" src="https://github.com/user-attachments/assets/5e6e3d4b-ca76-4a5c-ba1c-c388d53ad421" />
+    <img width="1020" alt="9" src="https://github.com/user-attachments/assets/5e6e3d4b-ca76-4a5c-ba1c-c388d53ad421" />
 
 
 10.	**ВЫБИРАЕМ** (кнопка *Connect*) и **ЗАПУСКАЕМ** (кнопка *Ready*) прокси.
