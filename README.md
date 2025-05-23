@@ -9,7 +9,7 @@ bash <(curl -sSL https://get.docker.com)
 ```
 docker pull mzz2017/v2raya
 ```
-3.	Запускаем образ (копируем **ВСЕ** строчки **СРАЗУ**, а не по одной). Обратите внимание на строчку V2RAYA_V2RAY_BIN=/usr/local/bin/xray. V2raya поддерживает и xray core и v2ray core, но v2ray core не поддерживает reality. По умолчанию, стоит xray, поэтому оставляем как есть.
+3.	Запускаем образ. Обратите внимание на строчку ```V2RAYA_V2RAY_BIN=/usr/local/bin/xray```. V2raya поддерживает и xray core и v2ray core, но v2ray core не поддерживает reality. По умолчанию, стоит xray, поэтому оставляем как есть.
 ```
 4.	docker run -d -p 2017:2017 -p 20170-20172:20170-20172 --name v2raya -e V2RAYA_V2RAY_BIN=/usr/local/bin/xray -e V2RAYA_LOG_FILE=/tmp/v2raya.log mzz2017/v2raya:latest
 ```
